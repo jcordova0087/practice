@@ -4,23 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Sen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Travel goals</title>
 </head>
 <body>
-    <ol>
-        <li>Monday</li>
-        <li>Tuesday</li>
-        <li>Wednesday</li>
-    </ol>
-    <ul>
-        <li>Aples</li>
-        <li>Orange</li>
-        <li>Avocados</li>
-    </ul>
+    <header>
+        <div id="page-logo">
+            <a href="index.html">Travel Goals</a>
+        </div>
+        <nav>
+           <ul>
+            <li><a href="places.html">Destinations</a></li>
+            <li><a href="">About</a></li>
+           </ul> 
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div id="hero-content">
+                <h1>Joe's Travel Page</h1>
+                <p>Lets explore the world togheter!</p>
+                <a href="places.html">Discover Places</a>
+            </div>
+        </section>
+        <section id="highlights">
+            <h2>Highlights</h2>
+            <ul id="destinations">
+                <li class="destination">
+                    <img src="images/places/miami.jpg" alt="Miami streets">
+                    <p>Miami <strong>USA</strong></p>
+                </li>
+                <li class="destination">
+                    <img src="images/places/munich.jpg" alt="Germany">
+                    <p>Munich <strong>Germany</strong></p>
+                </li>
+                <li class="destination">
+                    <img src="images/places/barcelona.jpg" alt="Barcelona">
+                    <p>Barcelona <strong>Spain</strong></p>
+                </li>
+            </ul>
 
-    <input id="name">
-    <input id="apellido">
-    
+        </section>
+    </main>
+    <footer></footer>
 </body>
 </html>
